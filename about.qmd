@@ -3,28 +3,51 @@ title: "About Me"
 sidebar: false 
 ---
 
-# Education
+# *Education*
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2019 - ongoing.
+-   Ankara Atatürk High School, Turkey, 2014 - 2019
 
-# Work Experience
+# *Work Experience*
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
+1.  **Türk Havacılık Uzay Sanayii**, Production Planning Candidate Engineer, November 2022 - May 2023
 
-2.  Firm yyy, position yyy, year yyy
+2.  **Hacettepe University**, Part-Time Student, December 2021 - May 2022
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+1.  **ASELSAN**, Project Management Intern, August 2023 - September 2023
 
-2.  Firm bbb, position yyy, year yyy
+2.  **Türk Traktör ve Ziraat Makineleri A.Ş.**, Business Development Intern, July 2023 - August 2023
 
-# Projects
+3.  **Kazan Soda Elektrik A.Ş.**, Logistics Intern, July 2022 - August 2022
 
-# Competencies
+# *Projects*
 
-R, Quarto, Git, Python
+1.  Maintenance Engineering
 
-# Hobbies
+2.  Lean Production Systems
+
+3.  Optimization and Modeling
+
+4.  Production Planning and Stock Control
+
+5.  Project Management
+
+# *Competencies*
+
+1.  Optimization: Excel Solver
+
+2.  Programming: Python , MATLAB, Microsoft Excel VBA
+
+3.  Design: SolidWorks
+
+4.  Other: MS Office
+
+# *Hobbies*
+
+**Basketball Player,** Eryaman Tofaş Basketall Kulübü, 2011 - 2015
+
+**Folk Dances/Modern Dance**, Ankara Atatürk Lisesi Sanat Gecesi, 2015 - 2017
