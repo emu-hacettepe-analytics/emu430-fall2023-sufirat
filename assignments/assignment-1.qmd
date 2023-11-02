@@ -4,7 +4,19 @@ title: "Assignment 1"
 
 # Assignment 1
 
+
 My first assignment has three parts.
+
+## (a)
+
+### The R integration in Power BI: Why R developers should be Interested
+
+[If you are interest in this topic, just click!!!](https://www.rstudio.com/conference/2022/talks/tidyverse-power-bi-match-made/)
+
+ Power BI is described in this video as a feature-rich business intelligence application that includes capabilities for data transformation, acquisition, and visualization. But many people find it difficult to grasp Power BI; however, R users can shorten the learning curve by using Tidyverse. This presentation introduces viewers to Tidyverse and shows them how to use it to quickly learn Power BI and do tasks that may not be achievable with Power BI's built-in capability.
+
+  ----This video is not about replacing R Studio with  Power BI.----
+
 
 ## (b)
 
@@ -91,7 +103,10 @@ print("square_roots:", square_roots)
 
 
 ## (c)
-In this section, we examine the na_example data set to identify NAs and replace them with 0. I'm grateful to Chatgpt for its assistance.
+
+### na_example Data Set
+
+In this section, we examine the na_example data set to identify NAs and replace them with 0. I'm grateful to Chatgpt for its assistance of usage of is.na().
 
 ```{r}
 # Import the “na_example” data set
