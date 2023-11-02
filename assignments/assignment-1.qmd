@@ -4,12 +4,119 @@ title: "Assignment 1"
 
 # Assignment 1
 
-```{r}
-1 + 1
-```
-
-My first assignment has two parts.
-
-## (a)
+My first assignment has three parts.
 
 ## (b)
+
+### Differeneces between R and Pyhton
+
+#### **1.Assignment Operator**
+
+ In R programming language,  <- is used for assignment operation which I had a hard time getting used to. <- is used for creating variable and assigning a values. However,to do assignment operation, we use the "=" symbol, which Prof. Daşdemir finds more logical in the R programming language. One of the main differences between two programming language is assignment operator.
+
+Here an example of usage of <- for assignment operation in R :
+```{r}
+# Assign the value of 7 which is my lucky number to the variable 'my_lucky_number'
+my_lucky_number <- 7
+
+#Update the value of 'my_lucky_number'
+my_lucky_number <- my_lucky_number + 2
+
+# Print the new value of variable 'my_lucky_number'
+print(my_lucky_number)
+```
+
+
+Here an example of usage of <- for assignment operation in Python:
+```{python}
+# Assign the value of 7 to the variable 'my_lucky_number'
+my_lucky_number = 7
+
+#Update the value of 'my_lucky_number'
+my_lucky_number += 2
+
+# Print the new value of variable 'my_lucky_number'
+print(my_lucky_number)
+```
+
+#### **2. Mean Function**
+
+ The majority of functions are built into the R programming language, making it easier to use; but, in order to utilize them in Python, we must download libararies. For example, 'mean';
+
+Here an example of usage of mean function in R :
+```{r}
+heights_in_cm <- c(185,190, 178, 192, 188, 176, 180)
+average <- mean(heights_in_cm)
+cat("the average of heights:", average)
+```
+
+Here an example of usage of mean function in Pyhton :
+```{python}
+# Import numpy for using mean function
+import numpy as np
+heights_in_cm = [185, 190, 178, 192, 188, 176, 180]
+
+#Calculate of average of heights
+average = np.mean(heights_in_cm)
+
+# Print the value of variable
+print("the average of heights:", average)
+```
+
+#### **3. Calculating the Square Roots of Elements in List**
+
+ While we perform the square root calculations of the elements in a list by looping over a list in Python, we perform the same operation using the sqrt function in R.
+  
+Here an example of calculating square root in R:
+```{r}
+vector <- c(25, 36, 121,9)
+#Calculate square roots of elements
+square_roots <- sqrt(vector)
+
+#Print the list of square roots
+cat("square_roots:", square_roots)
+```
+ 
+Here an example of calculating square root in Python :
+```{python}
+list = [25, 36, 121,9] 
+square_roots = []
+#Calculate square roots and add the list of them
+for i in list:
+  square_roots.append(i**0.5)
+
+#Print the list of square roots
+print("square_roots:", square_roots)
+```
+
+
+## (c)
+In this section, we examine the na_example data set to identify NAs and replace them with 0. I'm grateful to Chatgpt for its assistance.
+
+```{r}
+# Import the “na_example” data set
+library(dslabs)
+data("na_example")
+
+#Print the data set 
+na_example
+
+# Count the total number of NA
+total_number_NA1 <- sum(is.na(na_example))
+cat("TOTAL NUMBER OF NA :", total_number_NA1 )
+```
+```{r}
+# Create new variable for data set with 0
+na_example_with_0 <- na_example
+
+# Replace NAs with 0
+na_example_with_0[is.na(na_example)] <- 0
+
+# Print new data set with 0
+na_example_with_0
+
+# Count the total number of NA in new data set
+total_number_NA2 <- sum(is.na(na_example_with_0))
+cat("TOTAL NUMBER OF NA :", total_number_NA2 )
+```
+
