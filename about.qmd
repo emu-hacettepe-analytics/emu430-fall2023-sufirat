@@ -51,3 +51,9 @@ sidebar: false
 **Basketball Player,** Eryaman Tofaş Basketall Kulübü, 2011 - 2015
 
 **Folk Dances/Modern Dance**, Ankara Atatürk Lisesi Sanat Gecesi, 2015 - 2017
+
+# *My Cv*
+[Dilan Su's CV](path/to/Dilan Su fırat.pdf)
+
+
+
