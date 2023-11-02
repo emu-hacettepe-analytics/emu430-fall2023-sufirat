@@ -7,9 +7,8 @@ title: "Assignment 1"
 
 My first assignment has three parts.
 
-## (a)
+## (a) The R integration in Power BI: Why R developers should be Interested
 
-### The R integration in Power BI: Why R developers should be Interested
 
 [If you are interest in this topic, just click!!!](https://www.rstudio.com/conference/2022/talks/tidyverse-power-bi-match-made/)
 
@@ -18,11 +17,9 @@ My first assignment has three parts.
   ----This video is not about replacing R Studio with  Power BI.----
 
 
-## (b)
+## (b) Differeneces between R and Pyhton
 
-### Differeneces between R and Pyhton
-
-#### **1.Assignment Operator**
+### 1.Assignment Operator
 
  In R programming language,  <- is used for assignment operation which I had a hard time getting used to. <- is used for creating variable and assigning a values. However,to do assignment operation, we use the "=" symbol, which Prof. Daşdemir finds more logical in the R programming language. One of the main differences between two programming language is assignment operator.
 
@@ -51,7 +48,7 @@ my_lucky_number += 2
 print(my_lucky_number)
 ```
 
-#### **2. Mean Function**
+### 2. Mean Function
 
  The majority of functions are built into the R programming language, making it easier to use; but, in order to utilize them in Python, we must download libararies. For example, 'mean';
 
@@ -75,7 +72,7 @@ average = np.mean(heights_in_cm)
 print("the average of heights:", average)
 ```
 
-#### **3. Calculating the Square Roots of Elements in List**
+### 3. Calculating the Square Roots of Elements in List
 
  While we perform the square root calculations of the elements in a list by looping over a list in Python, we perform the same operation using the sqrt function in R.
   
@@ -102,9 +99,7 @@ print("square_roots:", square_roots)
 ```
 
 
-## (c)
-
-### na_example Data Set
+## (c) na_example Data Set
 
 In this section, we examine the na_example data set to identify NAs and replace them with 0. I'm grateful to Chatgpt for its assistance of usage of is.na().
 
