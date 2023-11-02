@@ -42,7 +42,7 @@ sidebar: false
 
 2.  Programming: Python , MATLAB, Microsoft Excel VBA
 
-3.  Design: Solidworks
+3.  Design: SolidWorks
 
 4.  Other: MS Office
 
