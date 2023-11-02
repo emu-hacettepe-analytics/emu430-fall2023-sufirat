@@ -22,11 +22,9 @@ website:
             
     tools:
       - icon: github
-        href: https://twitter.com
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/sufirat
       - icon: linkedin
-        href: https://linkedin.com
+        href: linkedin.com/in/dilan-su-firat-470135197
 
   sidebar:
     - title: "Assignments"
