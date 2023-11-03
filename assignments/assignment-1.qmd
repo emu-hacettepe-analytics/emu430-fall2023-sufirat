@@ -60,7 +60,7 @@ cat("the average of heights:", average)
 
 Here an example of usage of mean function in Pyhton :
 
-```{python}
+``` {python}
 # Import numpy for using mean function
 import numpy as np
 heights_in_cm = [185, 190, 178, 192, 188, 176, 180]
