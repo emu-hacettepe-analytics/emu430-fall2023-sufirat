@@ -102,7 +102,7 @@ print("square_roots:", square_roots)
 
 ## (c) na_example Data Set
 
-In this section, we examine the na_example data set to identify NAs and replace them with 0. I'm grateful to Chatgpt for its assistance of usage of is.na().
+In this section, we examine the na_example data set to identify NAs and replace them with 0.
 
 ```{r}
 # Import the “na_example” data set
